@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.global-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+header {
+  background: #5500C1; }
+
+header h2 {
+  padding: 20px;
+  font-size: 22px;
+  color: white; }
+
+footer {
+  background: #5500C1;
+  padding: 20px;
+  font-size: 14px;
+  display: flex;
+  width: 100%;
+  max-width: 140x;
+  justify-content: space-between;
+  margin-top: 30px; }
+  footer h5 {
+    color: white; }
+
+@media (max-width: 400px) {
+  .global-wrapper {
+    width: 400px; } }
+
+main {
+  margin: 0 auto 30px;
+  position: relative;
+  display: block;
+  height: 320px;
+  width: 60%; }
+  main h1 {
+    color: #009B9B;
+    font-size: 32px;
+    margin: 20px auto; }
+  main .box-input {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 18px; }
+    main .box-input input {
+      padding: 10px 0;
+      border: 1px solid #646464;
+      border-radius: 5px;
+      text-indent: 10px; }
+  main button {
+    padding: 10px 40px;
+    background: #5500C1;
+    color: white;
+    border: 1px solid #5500C1;
+    border-radius: 4px;
+    justify-content: center;
+    cursor: pointer; }
+  main button:hover {
+    box-shadow: 0 0 10px #646464; }
+  main .btn {
+    text-align: center; }
+
+@media (max-width: 720px) {
+  main {
+    height: 100%; }
+    main .box-input {
+      display: flex;
+      flex-direction: column; } }
+
+@media (max-width: 400px) {
+  main {
+    margin: auto; }
+    main .box-input {
+      width: 300px; } }
+
+.app {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  gap: 20px;
+  width: 60%; }
+
+.wut {
+  height: 100%; }
+
+@media (max-width: 720px) {
+  * {
+    font-size: 12px; }
+  .app {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 40%; } }
+
+@media (max-width: 400px) {
+  .app {
+    margin-top: 20px; } }
+
+.box-contact {
+  text-align: center;
+  height: auto;
+  position: relative;
+  border: 1px solid #969696;
+  border-radius: 4px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+  .box-contact figure {
+    border: 4px solid #009B9B;
+    border-radius: 100%;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 15px; }
+    .box-contact figure img {
+      width: 100%;
+      border-radius: 100%; }
+  .box-contact h3 {
+    font-size: 14px; }
+  .box-contact h4 {
+    font-size: 12px;
+    color: #5500C1;
+    margin-bottom: 10px; }
+  .box-contact span {
+    margin-bottom: 10px;
+    display: flex; }
+    .box-contact span i {
+      font-size: 14px;
+      color: blue;
+      margin-right: 5px; }
+  .box-contact button {
+    background: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: -15px;
+    right: -15px; }
+  .box-contact button:hover {
+    font-size: 20px;
+    font-weight: bold; }
+
+.box-contact:hover {
+  box-shadow: 0 0 10px #969696; }
