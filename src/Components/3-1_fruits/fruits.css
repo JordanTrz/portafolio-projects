@@ -1,0 +1,19 @@
+.Fruits{
+  width: 230px;
+  height: 320px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 0 10px gray;
+}
+
+.Fruits img{
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.pNewColor{
+  color: #5500C1;
+  margin-top: 5px;
+}

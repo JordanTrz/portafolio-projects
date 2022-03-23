@@ -1,0 +1,16 @@
+main{
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 40px;
+  justify-items: center;
+  /* padding: 40px; */
+  max-width: 800px;
+  margin: auto;
+}
+
+.nameProducto{
+  max-width: 800px;
+  margin: 20px auto;
+  color: #009B9B;
+}

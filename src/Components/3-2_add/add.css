@@ -1,0 +1,30 @@
+.addButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Number{
+  background: #CD1B86;
+  height: 45px;
+  width: 40px;
+  border: 1px solid #CD1B86;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button{
+  width: 34px;
+  height: 45px;
+  background: white;
+  cursor: pointer;
+}
+
+.btn-1{
+  border-radius: 5px 0 0 5px;
+}
+.btn-2{
+  border-radius: 0 5px 5px 0;
+}

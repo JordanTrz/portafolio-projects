@@ -1,0 +1,8 @@
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #00C159;
+  color: white;
+  margin-top: 20px;
+}
