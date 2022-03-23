@@ -1,0 +1,118 @@
+@media (max-width: 800px) {
+
+    // *{
+    //     overflow: hidden;
+    // }
+
+    .global-wrapper{
+        width: 95%;
+
+    }
+
+    .nav-search{
+        width: auto;
+        
+        i{
+            left: 18%;
+        }
+
+        input{
+            font-size: 13px;
+            padding-left: 45px;
+        }
+
+        button{
+            font-size: 13px;
+            font-weight: bold;
+            margin: 0;
+            width: 15%;
+            right: 18%;
+        }
+    }
+
+    .main-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aside-search{
+        width: auto;
+        font-size: 14px;
+        margin-left: 5%;
+        i{
+            top: 37%;
+            font-size: 20px;
+        }
+        input:nth-child(3){
+            width: 85%;
+        }
+    }
+
+    .listing-items{
+        width: auto;
+        ul{
+            padding-left: 0;
+            width: 95%;
+            margin: auto;
+            li{
+                >div:nth-child(2){
+                    // height: 80px;
+                    width: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    margin-left: 10px;
+                }
+
+                div h3{
+                    font-size: 10px;
+                }
+
+                div h2{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .box-info{
+        width: 50px;
+    }
+
+    .icons{
+        position: absolute;
+        right: 20px;
+        width: 50%;
+        font-size: 11px;
+        
+    }
+
+
+    .search-pagination{
+        width: auto;
+        ul{
+            font-size: 8px;
+            li{
+                width: 5%;
+            }
+        }
+    }
+
+    .footer{
+        font-size: 10px;
+    }
+}
+
+
+// @media (max-width: 400px) {
+
+//     .icons{
+//         display: none;
+//     }
+
+//     .aside-search{
+//         input:nth-child(3){
+//             width: 70%;
+//         }
+//     }
+// }

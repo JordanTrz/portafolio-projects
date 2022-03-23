@@ -1,0 +1,30 @@
+.search-pagination{
+    margin-bottom: 20px;
+
+    ul{
+        display: flex;
+        list-style-type: none;
+        font-size: 14px;
+        font-weight: 400;
+        justify-content: end;
+
+        li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 36px;
+            width: 2.5%;
+            border: 1px solid gray;
+            border-radius: 8px;
+            margin: 5px;
+            cursor: pointer;
+
+            &:hover{
+                color: white;
+                background: #1E86FF;
+                border: 1px solid #1E86FF;
+                font-weight: 900;
+            }
+        }
+    }
+}

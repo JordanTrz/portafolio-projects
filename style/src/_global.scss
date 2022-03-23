@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    // box-sizing: border-box;
+}
+
+body{
+    background: rgb(240, 240, 240);
+}
+
+.global-wrapper{
+    max-width: 1400px;
+    height: 100%;
+    margin: auto;
+}
+
+.main-section{
+    display: flex;
+}
