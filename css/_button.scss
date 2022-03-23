@@ -1,0 +1,37 @@
+@mixin btn-character($size){
+    
+    @if ($size == food){
+        position: absolute;
+        right: 20px;
+        bottom: 25px;
+        padding: 5px 25px;
+    }
+    @else if ($size == hotel){
+        position: relative;
+        padding: 30px 120px;
+        margin-top: 30px;
+    }
+    @else{
+        position: relative;
+    }
+
+    border-radius: 5px; 
+    border: 1px solid #2ECC71;
+    background: #2ECC71;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+
+    &:hover{
+        background: #179b4e;
+        border-color: #179b4e;
+        transition: all .2s ease-in-out;
+    }
+}
+
+.btn-food{@include btn-character(food);}
+.btn-hotel{@include btn-character(hotel);}
+.btn-div{text-align: center;}

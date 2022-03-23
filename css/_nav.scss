@@ -1,0 +1,31 @@
+// Nav
+%main-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #2ECC71;
+    height: 70px;
+    
+    h1{
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    ul{
+        display: flex;   
+        justify-content: center;
+    }
+    
+    li{
+        padding: 10px;
+        list-style-type: none;
+        font-family: 'Oswald', sans-serif;
+        
+        &:hover{
+            border-bottom: 3px solid white ;
+            transition: all .3s ease;
+        }
+    }
+}
+
+.navegar{@extend %main-nav;}
